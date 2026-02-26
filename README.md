@@ -2,7 +2,7 @@ Clean Character Counter / Счетчик "чистых" символов
 
 English | Русский
 
-<a name="english"></a>
+<a id="english"></a>
 
 🇬🇧 English
 
@@ -21,7 +21,7 @@ Run the script:
 python main.py
 
 
-Paste your text.
+Paste your text into the terminal.
 
 To get the result, send an EOF (End Of File) signal:
 
@@ -29,7 +29,7 @@ Windows: Press Enter, then Ctrl+Z, then Enter.
 
 Linux/macOS: Press Ctrl+D.
 
-<a name="russian"></a>
+<a id="russian"></a>
 
 🇷🇺 Русский
 

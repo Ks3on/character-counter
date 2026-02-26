@@ -1,59 +1,42 @@
-Clean Character Counter / Счетчик "чистых" символов
+# 📝 Clean Character Counter / Счетчик "чистых" символов
 
-English | Русский
+Простая и удобная консольная утилита на Python для подсчета "чистых" букв в тексте.
+A simple Python utility that counts only alphabetic characters in a text.
 
-<a id="english"></a>
+## 🚀 Основные возможности (Key Features)
 
-🇬🇧 English
+* **Только буквы (Letters only):** Программа считает только символы алфавита (кириллица, латиница и др.), игнорируя всё остальное.
 
-A simple Python utility that counts only alphabetic characters in a text, automatically excluding spaces, punctuation, and numbers.
+* **Исключение мусора (Excludes noise):** Автоматически фильтрует пробелы, табуляцию, переносы строк, знаки препинания и цифры.
 
-⚙️ How it works
+* **Потоковый ввод (Bulk Input):** Поддерживает вставку больших объемов текста за один раз через стандартный поток ввода (stdin).
 
-The program reads input from the standard input stream (stdin) and uses the .isalpha() method to filter the text. This ensures that it correctly counts letters from various alphabets (Latin, Cyrillic, etc.) while ignoring everything else.
+## ⚙️ Как это работает (How it works)
 
-🚀 Usage
+Программа считывает данные из стандартного потока ввода (`stdin`) и использует метод `.isalpha()` для фильтрации. Это гарантирует корректный подсчет букв любых алфавитов, игнорируя все остальные символы.
 
-Make sure you have Python 3 installed.
-
-Run the script:
-
-python main.py
+The program reads input from `stdin` and uses the `.isalpha()` method to filter the text, ensuring it correctly counts letters from various alphabets while ignoring everything else.
 
 
-Paste your text into the terminal.
+## 🛠 Установка и запуск (Installation & Usage)
 
-To get the result, send an EOF (End Of File) signal:
+Для запуска скрипта на вашем компьютере выполните следующие шаги:
+To run the script on your computer, follow these steps:
 
-Windows: Press Enter, then Ctrl+Z, then Enter.
+1. Убедитесь, что у вас установлен **Python 3** (Make sure you have **Python 3** installed).
 
-Linux/macOS: Press Ctrl+D.
+2. Запустите скрипт в терминале (Run the script in the terminal):
 
-<a id="russian"></a>
+   ```bash
+   python main.py
+   ```
 
-🇷🇺 Русский
+3. Вставьте ваш текст в консоль (Paste your text into the terminal).
 
-Простая утилита на Python, которая считает только буквы в тексте, автоматически исключая пробелы, знаки препинания и цифры.
+4. Чтобы получить результат, отправьте сигнал **EOF** (To get the result, send an **EOF** signal):
 
-⚙️ Как это работает
+   * **Windows:** Нажмите `Enter`, затем `Ctrl+Z`, затем снова `Enter`.
 
-Программа считывает данные из стандартного потока ввода (stdin) и использует метод .isalpha() для фильтрации. Это гарантирует корректный подсчет букв любых алфавитов (кириллица, латиница и др.), игнорируя все остальные символы.
+   * **Linux/macOS:** Нажмите `Ctrl+D`.
 
-🚀 Инструкция
-
-Убедитесь, что у вас установлен Python 3.
-
-Запустите скрипт:
-
-python main.py
-
-
-Вставьте текст в консоль.
-
-Чтобы получить результат, отправьте сигнал EOF (конец файла):
-
-Windows: Нажмите Enter, затем Ctrl+Z, затем снова Enter.
-
-Linux/macOS: Нажмите Ctrl+D.
-
-Created with ❤️ for simple text analysis.
+*Created with ❤️ for simple text analysis.*
